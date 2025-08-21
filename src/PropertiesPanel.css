@@ -1,0 +1,84 @@
+/* PropertiesPanel styles */
+/* PropertiesPanel dark theme and layout */
+.properties-panel {
+  background: #1a1a1a;
+  border-left: 1px solid #333;
+  padding: 0;
+  min-width: 260px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.properties-header {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.properties-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.help-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.help-button:hover {
+  background: #444;
+}
+.properties-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+.property-group {
+  margin-bottom: 24px;
+}
+.property-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.markdown-output {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: monospace;
+  font-size: 13px;
+  color: #e5e5e5;
+  white-space: pre-wrap;
+  margin-bottom: 12px;
+}
+.copy-button {
+  background: #6366f1;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.copy-button:hover {
+  background: #5855eb;
+}

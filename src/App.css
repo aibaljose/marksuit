@@ -1,0 +1,117 @@
+/* Rich text input styles */
+.rich-input-box {
+  margin-bottom: 12px;
+}
+.rich-toolbar {
+  display: flex;
+  gap: 8px;
+  background: #181818;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+}
+.rich-toolbar button {
+  background: #222;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.rich-toolbar button:hover {
+  background: #6366f1;
+  color: #fff;
+}
+.rich-input {
+  min-height: 48px;
+  border: 1.5px solid #444;
+  border-radius: 8px;
+  padding: 10px;
+  background: #222;
+  color: #eee;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.rich-input:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 2px #0078d433;
+  outline: none;
+}
+/* Professional input box styles */
+.professional-input {
+  border: 1.5px solid #444;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #222;
+  color: #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.professional-input:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 2px #0078d433;
+  outline: none;
+}
+body, #root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.app-container {
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+  height: 100vh;
+  width: 100vw;
+
+  background: #0a0a0a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Ensure all children fill their grid area */
+.sidebar, .canvas-area, .properties-panel {
+  height: 100vh;
+}
+
+/* Remove any centering or max-width from parent containers */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+    box-sizing: border-box;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

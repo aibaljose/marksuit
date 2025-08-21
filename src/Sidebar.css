@@ -1,0 +1,113 @@
+/* Sidebar styles */
+/* Sidebar dark theme and layout */
+.sidebar {
+  background: #1a1a1a;
+  border-right: 1px solid #333;
+  min-width: 220px;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.sidebar-header {
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+.app-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.sidebar-tabs {
+  display: flex;
+  border-bottom: 1px solid #333;
+}
+.tab {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.tab.active {
+  color: #6366f1;
+  background: #1e1e2e;
+  border-bottom: 2px solid #6366f1;
+}
+.tab:disabled {
+  color: #ccc;
+  background: #222;
+}
+.elements-panel {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+.element-category {
+  margin-bottom: 24px;
+}
+.category-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.element-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin: 4px 0;
+  background: #252525;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: grab;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  color: #fff;
+}
+.element-item:hover {
+  background: #2a2a2a;
+  border-color: #444;
+  transform: translateY(-1px);
+}
+.element-item:active {
+  cursor: grabbing;
+  transform: scale(0.98);
+}
+.element-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}

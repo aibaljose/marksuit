@@ -47,79 +47,78 @@ const ELEMENTS = [
 
 // Task templates for assets tab
 const TASK_TEMPLATES = [
+//   {
+//     label: 'Personal Know-How',
+//     content:
+//       '# 🔖 Task 9: Personal Know-How  \n' +
+//       '⭐ **300 Karma points**\n---\n' +
+//       '### • Powered by Ilmora ⚙️\n' +
+//       '### 📌 In this task, submit:\n' +
+//       '- 📄 Your latest **resume (PDF)**  \n' +
+//       '- 🎥 A **video (max 5 mins)** where you explain:  \n' +
+//       '  - Where AI will be in **2027**  \n' +
+//       '  - What major changes it might bring to **everyday life**  \n' +
+//       '---\n' +
+//       '### 🎤 Guidelines:\n' +
+//       '- Speak clearly in **English**  \n' +
+//       '- Ensure **good lighting** and **sound quality**  \n' +
+//       '---\n' +
+//       '### 📤 Submission:\n' +
+//       'Upload both the **video** and **resume** to a **GitHub repo** or **Google Drive**.  \n' +
+//       'Share the link in the **#ai channel** using the hashtag **#cl-ai-personalknowhow**  \n' +
+//       'to earn ⭐ **300 karma points**.'
+//   },
+//   {
+//     label: 'Sentiment Classifier (BERT)',
+//     content:
+//       '# 🔖 **Task 2: Fine-Tune a Sentiment Classifier using BERT** :⭐ 200 Karma Points\n' +
+//       '**Powered by Supe AI ✨**\n' +
+//       'In this task, you\'ll build and fine-tune a **BERT-based sentiment classifier** that can label text reviews (like movie or product reviews) as **Positive**, **Negative**, or **Neutral** 🎭.\n' +
+//       'You\'ll work with **sentiment datasets**, train using **PyTorch** or **TensorFlow**, and evaluate your model using **accuracy**, **F1-score**, and a **confusion matrix** 📊. Use **Weights & Biases** for experiment tracking and logging.\n' +
+//       '## 🔗 Check out: [Resource](https://youtu.be/8N-nM3QW7O0?si=gMI74MwhxHjbGBqr)\n' +
+//       '## 📦 Deliverables\n' +
+//       '* A deployed sentiment classifier\n' +
+//       '* Jupyter Notebook (.ipynb) showing preprocessing, training, and evaluation\n' +
+//       '* A short report covering dataset, training results, and improvement ideas\n' +
+//       '## 📤 After completing this task\n' +
+//       'Upload your notebook, app code, and report to GitHub. Share your repo in the generative-ai with the hashtag **#cl-genai-bertsentiment** to earn your :⭐ **200 karma points**.'
+//   },
   {
-    label: 'Personal Know-How',
+    label: 'A sample task adding is done here',
     content:
-      '# 🔖 Task 9: Personal Know-How  \n' +
-      '⭐ **300 Karma points**\n---\n' +
-      '### • Powered by Ilmora ⚙️\n' +
-      '### 📌 In this task, submit:\n' +
-      '- 📄 Your latest **resume (PDF)**  \n' +
-      '- 🎥 A **video (max 5 mins)** where you explain:  \n' +
-      '  - Where AI will be in **2027**  \n' +
-      '  - What major changes it might bring to **everyday life**  \n' +
-      '---\n' +
-      '### 🎤 Guidelines:\n' +
-      '- Speak clearly in **English**  \n' +
-      '- Ensure **good lighting** and **sound quality**  \n' +
-      '---\n' +
-      '### 📤 Submission:\n' +
-      'Upload both the **video** and **resume** to a **GitHub repo** or **Google Drive**.  \n' +
-      'Share the link in the **#ai channel** using the hashtag **#cl-ai-personalknowhow**  \n' +
-      'to earn ⭐ **300 karma points**.'
+      '# 🔖 **Task [Task Number]: [Task Title Placeholder]** :⭐ [Points Placeholder]\n' +
+  '**[Content Placeholder]**\n' +
+  '[Task description placeholder text goes here.]\n' +
+  'Suitable examples include:\n' +
+  '* [Example Placeholder 1]\n' +
+  '* [Example Placeholder 2]\n' +
+  '* [Example Placeholder 3]\n' +
+  '* [Example Placeholder 4]\n' +
+  'Use tools like [Tool Placeholder 1], [Tool Placeholder 2], [Tool Placeholder 3] — all within a [Platform Placeholder] 🚀.\n' +
+  '## 🔗 Check out: [Resource Link Placeholder]\n' +
+  '## 📦 Deliverables:\n' +
+  '1. **[Deliverable Placeholder 1]**\n' +
+  '2. **[Deliverable Placeholder 2]**\n' +
+  '3. **[Deliverable Placeholder 3]**\n' +
+  '## 📤 Submission\n' +
+  '[Submission instructions placeholder text here] ⭐ **[Points Placeholder]!**'
   },
-  {
-    label: 'Sentiment Classifier (BERT)',
-    content:
-      '# 🔖 **Task 2: Fine-Tune a Sentiment Classifier using BERT** :⭐ 200 Karma Points\n' +
-      '**Powered by Supe AI ✨**\n' +
-      'In this task, you\'ll build and fine-tune a **BERT-based sentiment classifier** that can label text reviews (like movie or product reviews) as **Positive**, **Negative**, or **Neutral** 🎭.\n' +
-      'You\'ll work with **sentiment datasets**, train using **PyTorch** or **TensorFlow**, and evaluate your model using **accuracy**, **F1-score**, and a **confusion matrix** 📊. Use **Weights & Biases** for experiment tracking and logging.\n' +
-      '## 🔗 Check out: [Resource](https://youtu.be/8N-nM3QW7O0?si=gMI74MwhxHjbGBqr)\n' +
-      '## 📦 Deliverables\n' +
-      '* A deployed sentiment classifier\n' +
-      '* Jupyter Notebook (.ipynb) showing preprocessing, training, and evaluation\n' +
-      '* A short report covering dataset, training results, and improvement ideas\n' +
-      '## 📤 After completing this task\n' +
-      'Upload your notebook, app code, and report to GitHub. Share your repo in the generative-ai with the hashtag **#cl-genai-bertsentiment** to earn your :⭐ **200 karma points**.'
-  },
-  {
-    label: 'LLM Fine-Tune on PDF',
-    content:
-      '# 🔖 **Task 3: Fine-Tune an Open-Source LLM on a Custom PDF Document** :⭐ 300 Karma points\n' +
-      '**Powered by Supe AI!**\n' +
-      'In this task, you\'ll fine-tune an open-source Large Language Model (e.g., Mistral-7B) using content from a specific PDF to create a domain-specific expert.\n' +
-      'Choose a text-rich PDF document that will serve as the knowledge base for your expert model. The document should be substantial, with **over 100,000 words**.\n' +
-      'Suitable examples include:\n' +
-      '* The Constitution of India\n' +
-      '* Classic literature (*Moby Dick*, *War and Peace*)\n' +
-      '* Religious texts\n' +
-      '* Comprehensive technical manuals\n' +
-      'Use tools like LangChain, transformers, peft, datasets, and pypdf — all within a Google Colab environment (with GPU) 🚀.\n' +
-      '## 🔗 Check out: [Resource](https://huggingface.co/learn/llm-course/chapter1/1)\n' +
-      '## 📦 Deliverables:\n' +
-      '1. **LoRA Adapter Weights**: Uploaded to Hugging Face Hub (public).\n' +
-      '2. **Demo UI**: Gradio/Streamlit app hosted on Hugging Face Spaces.\n' +
-      '3. **README.md**: With project overview, usage instructions, and fine-tuning results.\n' +
-      '## 📤 Submission\n' +
-      'Submit both your GitHub repo and Hugging Face links in the **generative-ai** channel using **#cl-genai-llmfinetune** to earn your ⭐ **300 karma points!'
-  },
-  {
-    label: 'Nessus TryHackMe',
-    content:
-      '# 🔖 Task 7: Nessus 💯 100 Karma points\n' +
-      'In this task, you have to showcase your proficiency in using **Nessus** by successfully completing all the tasks in the TryHackMe room "RP: Nessus Redux" and achieving a 100% completion status.\n' +
-      '**Challenge Link:** [TryHackMe RP: Nessus Redux](https://tryhackme.com/room/rpnessusredux)\n' +
-      'After completing the task, share your public profile URL in the cyber security channel using the hashtag **#cl-cybersec-thmnessus** to avail 💯 100 karma points.'
-  },
-  {
-    label: 'OWASP Juice Shop',
-    content:
-      '# 🔖 Task 2: OWASP Juice Shop ⭐⭐ 400 Karma points\n' +
-      'In this task, you have to demonstrate your expertise in web application security by successfully completing all the tasks in the TryHackMe room "OWASP Juice Shop" and achieving a 100% completion status.\n' +
-      '**Challenge Link:** [TryHackMe OWASP Juice Shop](https://tryhackme.com/room/owaspjuiceshop)\n' +
-      'After completing the task, share your public profile URL in the Cyber Security channel using the hashtag **#cl-cybersec-owaspjuiceshop** to avail ⭐⭐ 400 karma points.'
-  },
+//   {
+//     label: 'Nessus TryHackMe',
+//     content:
+//       '# 🔖 Task 7: Nessus 💯 100 Karma points\n' +
+//       'In this task, you have to showcase your proficiency in using **Nessus** by successfully completing all the tasks in the TryHackMe room "RP: Nessus Redux" and achieving a 100% completion status.\n' +
+//       '**Challenge Link:** [TryHackMe RP: Nessus Redux](https://tryhackme.com/room/rpnessusredux)\n' +
+//       'After completing the task, share your public profile URL in the cyber security channel using the hashtag **#cl-cybersec-thmnessus** to avail 💯 100 karma points.'
+//   },
+//   {
+//     label: 'OWASP Juice Shop',
+//     content:
+//       '# 🔖 Task 2: OWASP Juice Shop ⭐⭐ 400 Karma points\n' +
+//       'In this task, you have to demonstrate your expertise in web application security by successfully completing all the tasks in the TryHackMe room "OWASP Juice Shop" and achieving a 100% completion status.\n' +
+//       '**Challenge Link:** [TryHackMe OWASP Juice Shop](https://tryhackme.com/room/owaspjuiceshop)\n' +
+//       'After completing the task, share your public profile URL in the Cyber Security channel using the hashtag **#cl-cybersec-owaspjuiceshop** to avail ⭐⭐ 400 karma points.'
+//   },
 ];
 
 function Sidebar({ onDragStart }) {
